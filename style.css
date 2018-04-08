@@ -1,4 +1,9 @@
-img {
+body {
+    background-image: url(images/dust_scratches/dust_scratches.png)
+}
+
+
+.mainImage {
     margin-right: 20px;
     margin-top: 10px;
     height: 350px;
@@ -8,5 +13,6 @@ img {
 .mainContentBorder {
     margin-top: 50px;
     padding: 20px;
-    border: 2px solid rgb(179, 179, 179)
+    border: 2px solid rgb(179, 179, 179);
+    background-color: white;
 }
