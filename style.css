@@ -1,5 +1,6 @@
 body {
-    background-image: url(images/dust_scratches/dust_scratches.png)
+    background-image: url(images/dust_scratches/dust_scratches.png);
+   
 }
 
 
@@ -15,4 +16,9 @@ body {
     padding: 20px;
     border: 2px solid rgb(179, 179, 179);
     background-color: white;
+}
+
+.footer {
+    margin-top: 50px;
+    
 }
