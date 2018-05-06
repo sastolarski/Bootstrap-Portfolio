@@ -150,6 +150,7 @@ body {
   /* PORTFOLIO PAGE */
   .port-image {
     margin: 20px auto;
+    border: 2px solid #666;
   }
   /* END PORTFOLIO PAGE */
   
