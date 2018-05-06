@@ -22,7 +22,7 @@ body {
   
   /* create styles for use for all white main boxes */
   .block {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
   
     padding: 30px;
     margin-bottom: 30px;
@@ -40,12 +40,13 @@ body {
     font-family: Georgia, Times, "Times New Roman", serif;
   
     /* Typography */
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: #fff;
   
     /* Visual */
     background: #4aaaa5;
+    padding: 10px;
   }
   
   /* override bootstrap hover color and border */
