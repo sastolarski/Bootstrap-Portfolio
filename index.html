@@ -1,98 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en-us">
 
-        <title>About Me</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="reset.css">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
 
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <body>
-                            <!-- navbar div -->
-        <div>   
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Steven Stolarski</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <title>Bootstrap Basic Portfolio</title>
 
-                      <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="index.html">About Me</a>
-                        <a class="nav-item nav-link" href="portfolio.html">My Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact Me</a>
-                      </div>
-                    </div>
-                  </nav>
-        </div>
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-        <div class="container">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="style.css" media="screen">
 
-            <div class="row">
-                <div class="col-md-2">
-                    
-                </div>
+</head>
 
-                <div class="col-md-8">
-                    <div class="mainContentBorder">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Steven Stolarski</a>
+      </div>
+      <button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
-                        <h1>About Me</h1>
-                        <hr>
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="assets/imgs/natebeach.jpeg" alt="" id="about-image" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <aside class="block">
+          <h1 class="block-header connect-header">Connect With Me</h1>
+          <hr />
+          <div id="images">
+            <img src="assets/imgs/github.png" alt="" class="connect-photo">
+            <img src="assets/imgs/linkedin.png" alt="" class="connect-photo">
+            <img src="assets/imgs/stackover2.png" alt="" class="connect-photo">
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
 
-                        <div class="row">
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+  <!-- End of footer -->
 
-                            <div class="col-md-5">
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-                                <img class="mainImage img-thumbnail img-fluid" src="images/stevenmollicopy.jpg" alt="placehold" class="">
-                            
-                            </div>
-
-                            <div class="col-md-7">
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis augue eget lectus consequat ultricies. Aenean suscipit, neque vitae ornare auctor, dui felis dictum risus, tincidunt tincidunt arcu elit ut diam. Sed gravida imperdiet neque, vel molestie lectus tincidunt sed. Integer malesuada nibh dui. Phasellus ligula nunc, mollis vitae ultricies eu, venenatis ac sapien. Ut eget libero vestibulum, placerat enim et, consectetur diam. Curabitur vel pharetra erat. Nam lorem tellus, imperdiet id quam eget, condimentum mollis purus. Morbi pretium turpis turpis, at ullamcorper nibh egestas vitae. Fusce ac ipsum nec tellus malesuada aliquet a a ipsum.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-md-12">
-
-                                <p>Suspendisse vitae dolor ipsum. Curabitur quis eros libero. Nam ut dictum velit. Aliquam erat volutpat. Donec dictum massa vitae sapien mattis varius et vitae tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In dapibus viverra tellus vel feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus felis, consectetur at sagittis eu, feugiat a ante. Fusce rhoncus felis ut lobortis blandit.</p>         
-                                <p>Aenean pellentesque vestibulum turpis, tincidunt sagittis est gravida dapibus. Duis posuere, orci sed sollicitudin sollicitudin, erat diam efficitur leo, eu commodo lectus quam et nisl. Duis nec convallis sem, a molestie augue. Phasellus a urna malesuada, hendrerit velit et, tristique nisi. In porttitor ac nulla ut imperdiet. Etiam ut iaculis sem, nec sollicitudin felis. Praesent sagittis mauris magna, ut hendrerit quam egestas in.</p>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2">
-
-                </div>
-
-
-            </div>     <!--Main Row div end-->
-
-        </div>   <!--Container div end-->
-
-        <div class="footer">   
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <span class="navbar-text">
-                   Copyright&copy;
-                </span>
-            </nav>
-        </div>
-
-          
-    </body>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+</body>
 
 </html>
