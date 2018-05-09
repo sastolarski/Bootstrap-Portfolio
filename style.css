@@ -22,15 +22,16 @@ body {
   
   /* create styles for use for all white main boxes */
   .block {
-    background-image: url(images/Deep\ Sea\ Space.jpg);
+    background-image: url(images/dust_scratches/dust_scratches.png);
   
     padding: 30px;
     margin-bottom: 30px;
+    color: #254454;
   }
   
   .block-header {
     /* Typography */
-    color: white;
+    color: #254454;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
@@ -42,18 +43,14 @@ body {
     /* Typography */
     font-size: 28px;
     font-weight: bold;
-    color: #fff;
+    color: white;;
   
     /* Visual */
     background: #2f4454;
     padding: 10px;
   }
+
   
-  /* override bootstrap hover color and border */
-  .navbar-default > .navbar-nav > li > a:hover {
-    color: #2f4454;
-    
-  }
   
   .navbar {
     background: #2f4454;
@@ -61,11 +58,7 @@ body {
 
     
   }
-  /* typography */
-  .nav-link {
-      color: white;
 
-}
   
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
@@ -158,7 +151,7 @@ body {
   /* PORTFOLIO PAGE */
   .port-image {
     margin: 20px auto;
-    border: 2px solid #666;
+    border: 2px solid white;
   }
   /* END PORTFOLIO PAGE */
   
@@ -189,9 +182,14 @@ body {
   
   .submit-btn:hover {
     opacity: .7;
+    cursor: pointer;
   }
   
   /* END CONTACT FORM PAGE */
 
+  li:hover{
+    background-image: url(images/dust_scratches/dust_scratches.png);
+    border-radius: 25px;
+  }
 
     
